@@ -29,7 +29,7 @@ header{
     display: flex;
     width: 84%;
     margin: auto;
-    min-height: 600px;
+    min-height: 650px;
 }
 .introduction{ 
     margin-top: 90px;
@@ -73,6 +73,46 @@ header{
     margin-left: 80px;
     width: 450px;
 }
+
+
+.features-1,.features-2{
+    display: flex;
+    width: 84%;
+    justify-content:space-between;
+    min-height: 720px;
+    margin: auto;
+    position: relative;
+    /* background-color: red; */
+}
+
+.f1,.f3{
+    /* flex: 1; */
+    text-align: left;
+    padding-top: 100px;
+}
+.f2,.f4{
+    /* flex: 1; */
+    text-align: right;
+    padding-top: 300px;
+}
+.f1 img,.f3 img{
+    width: 400px;
+}
+
+.f2 img,.f4 img{
+    width: 400px;
+}
+
+
+.closing{
+    display: flex;
+    width: 84%;
+    justify-content:space-between;
+    min-height: 720px;
+    margin: auto;
+}
+
+
 
 
 
