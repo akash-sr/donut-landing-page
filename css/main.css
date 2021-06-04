@@ -103,7 +103,6 @@ header{
     width: 400px;
 }
 
-
 .closing{
     display: flex;
     width: 84%;
@@ -111,6 +110,7 @@ header{
     min-height: 720px;
     margin: auto;
 }
+
 
 
 
