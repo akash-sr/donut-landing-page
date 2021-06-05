@@ -78,7 +78,6 @@ header{
 }
 
 .presentation p{
-	width: 50%;
 	margin: auto;
 	margin-top: 30px;
 	font-family: 'Open Sans', sans-serif;
@@ -90,6 +89,7 @@ header{
 .scroll{
 	padding-top: 20px;
 	width: 2%;
+	min-width: 3px;
 	margin: auto;
 	cursor: pointer;
 	transition: all 50ms linear;
@@ -100,6 +100,7 @@ header{
 }
 .scroll:hover{
 	width: 2.5%;
+	min-width: 4px;
 }
 .features-1,.features-2{
     display: flex;
