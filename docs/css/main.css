@@ -133,12 +133,14 @@ header{
 }
 .left img{
     width: 20%;
+	height: auto;
 	min-width: 350px;
 	display: inline-block;
 }
 
 .right img{
     width: 20%;
+	height: auto;
 	min-width: 350px;
 	display: inline-block;
 }
@@ -146,10 +148,16 @@ header{
 .left-feature{
 	width: 30%;
 	vertical-align: middle;
+	margin: auto 0 auto -80px;
+	padding-bottom: 60px;
+	z-index: 1;
 }
 .right-feature{
 	width: 30%;
+	margin: auto -80px auto 0;
 	vertical-align: middle;
+	padding-bottom: 60px;
+	z-index: 1;
 }
 
 .closing{
