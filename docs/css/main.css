@@ -46,6 +46,12 @@ header{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     box-shadow: 0px 0px 5px #042434;
+	transition: all .3s ease-in-out;
+}
+
+.cta-select:hover{
+	background: #042434;
+	box-shadow: 0px 5px 10px #021722;
 }
 
 .presentation{
@@ -92,7 +98,7 @@ header{
 	min-width: 20px;
 	margin: auto;
 	cursor: pointer;
-	transition: all 50ms linear;
+	transition: all 0.3s ease-in-out;
 }
 .scroll img{
 	width: 100%;
@@ -386,10 +392,16 @@ header{
     background: #ED469D;
     color: white;
     width: 200px;
-    height: 50px;
+    height: 45px;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     box-shadow: 0px 0px 5px #042434;
+	transition: all .3s ease-in-out;
+}
+
+.cta-select-2:hover{
+	background: #042434;
+	box-shadow: 0px 5px 10px #021722;
 }
 
