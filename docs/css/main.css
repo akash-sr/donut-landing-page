@@ -40,11 +40,11 @@ header{
     border-radius: 15px;
     background: #ED469D;
     color: white;
-    width: 200px;
+    width: 150px;
     height: 45px;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     box-shadow: 0px 0px 5px #042434;
 	transition: all .3s ease-in-out;
 }
@@ -110,6 +110,7 @@ header{
 }
 .features-1,.features-2{
     display: flex;
+	flex-wrap: wrap;
     width: 84%;
     justify-content:space-between;
     min-height: 720px;
@@ -121,12 +122,18 @@ header{
 .f1,.f3{
     /* flex: 1; */
     text-align: left;
-    padding-top: 100px;
+	position: absolute;
+	left: 0;
+	top: 8%;
+    /* padding-top: 100px; */
 }
 .f2,.f4{
     /* flex: 1; */
     text-align: right;
-    padding-top: 300px;
+	position: absolute;
+	right: 0;
+	bottom: 8%;
+    /* padding-top: 300px; */
 }
 .f1 img,.f3 img{
     width: 400px;
@@ -391,11 +398,11 @@ header{
     border-radius: 15px;
     background: #ED469D;
     color: white;
-    width: 200px;
+    width: 150px;
     height: 45px;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     box-shadow: 0px 0px 5px #042434;
 	transition: all .3s ease-in-out;
 }
