@@ -120,36 +120,36 @@ header{
 }
 
 .left{
+	margin-top: 5%;
 	display: flex;
 	text-align: left;
-	position: absolute;
-	left: 0;
-	top: 8%;
-	justify-content: space-evenly;
+	justify-content: flex-start ;
 }
 .right{
+	margin-bottom: 5%;
 	display: flex;
     text-align: right;
-	position: absolute;
-	right: 0;
-	bottom: 8%;
-	justify-content: space-evenly;
+	justify-content: flex-end;
 }
 .left img{
-    width: 350px;
+    width: 20%;
+	min-width: 350px;
+	display: inline-block;
 }
 
 .right img{
-    width: 350px;
+    width: 20%;
+	min-width: 350px;
+	display: inline-block;
 }
 
 .left-feature{
 	width: 30%;
-	margin-top: 5%;
+	vertical-align: middle;
 }
 .right-feature{
 	width: 30%;
-	margin-top: 5%;
+	vertical-align: middle;
 }
 
 .closing{
