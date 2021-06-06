@@ -150,13 +150,13 @@ ul{
 .left-feature{
 	width: 30%;
 	/* vertical-align: middle; */
-	margin: auto 0 auto -80px;
+	margin: auto 0 auto -100px;
 	padding-bottom: 30px;
 	z-index: 1;
 }
 .right-feature{
 	width: 30%;
-	margin: auto -80px auto 0;
+	margin: auto -100px auto 0;
 	/* vertical-align: middle; */
 	padding-bottom: 30px;
 	z-index: 1;
