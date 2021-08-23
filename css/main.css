@@ -1,5 +1,6 @@
 html{
     overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 *{
     margin: 0px;
@@ -16,13 +17,17 @@ body{
 
 header{
     display: flex;
-    width: 15%;
+    width: 84%;
     height: 45px;
     margin-left: 8%;
     margin-top: 25px;
-    align-items: center;
+	justify-content: space-between;
 }
-
+.company-1{
+    display: flex;
+    width: 15%;
+    height: 45px;
+}
 .logo{
     height: 100%;
 }
@@ -30,82 +35,130 @@ header{
     color: #74B8E4;
 }
 
-.presentation{
-    display: flex;
-    width: 84%;
-    margin: auto;
-    min-height: 650px;
-}
-.introduction{ 
-    margin-top: 90px;
-    width: 55%;
-    font-family: 'Open Sans', sans-serif;
-    color: #042434;
-}
-.intro-text h1{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 80px;
-    line-height: 96%;
-}
-.intro-text p{
-    margin-top: 20px;
-    width: 90%;
-    font-size: 20px;
-    font-style:normal;
-    font-weight:normal;
-    line-height: 30px;
-}
-.cta{
-    padding-top: 60px;
-    text-align: right;
-    margin-right: 10%;
-}
 .cta-select{
     border: none;
     border-radius: 15px;
     background: #ED469D;
     color: white;
-    width: 200px;
-    height: 60px;
+    width: 150px;
+    height: 45px;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    box-shadow: 0px 0px 5px #042434;
-}
-.cover{
-    padding-top:140px;
-    margin-left: 80px;
-    width: 450px;
+    font-size: 16px;
+    box-shadow: 0px 0px 2px #042434;
+	transition: all .3s ease-in-out;
 }
 
+.cta-select:hover{
+	box-shadow: 0px 5px 5px #021722;
+}
 
-.features-1,.features-2{
-    display: flex;
+.presentation{
     width: 84%;
-    justify-content:space-between;
+    margin: auto;
+    min-height: 570px;
+	text-align: center;
+	margin-top: 80px;
+}
+.introduction{ 
+    font-family: 'Open Sans', sans-serif;
+    color: #042434;
+	text-align: center;
+}
+.intro-text h1{
+    font-style: normal;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 40px;
+}
+.h1-sub{
+	color: #ED469D;
+}
+
+.cover{
+	display: inline-block;
+    margin-top:30px;
+    width: 300px;
+	
+}
+
+.presentation p{
+	margin: auto;
+	margin-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 25px;
+}
+.scroll{
+	padding-top: 20px;
+	width: 2%;
+	min-width: 20px;
+	margin: auto;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.scroll img{
+	width: 100%;
+	margin: auto;
+}
+.scroll:hover{
+	width: 2.5%;
+	min-width: 25px;
+}
+.features{
+    display: flex;
+	flex-wrap: wrap;
+    width: 84%;
+    justify-content:space-evenly;
     min-height: 720px;
     margin: auto;
     position: relative;
     /* background-color: red; */
 }
-
-.f1,.f3{
-    /* flex: 1; */
-    text-align: left;
-    padding-top: 100px;
+ul{
+	list-style-type: none;
 }
-.f2,.f4{
-    /* flex: 1; */
+.left{
+	margin-top: 5%;
+	display: flex;
+	text-align: left;
+	justify-content: flex-start ;
+}
+.right{
+	margin-bottom: 5%;
+	display: flex;
     text-align: right;
-    padding-top: 300px;
+	justify-content: flex-end; 
 }
-.f1 img,.f3 img{
-    width: 400px;
+.left img{
+    width: 20%;
+	height: auto;
+	min-width: 300px;
+	display: inline-block;
 }
 
-.f2 img,.f4 img{
-    width: 400px;
+.right img{
+    width: 20%;
+	height: auto;
+	min-width: 300px;
+	display: inline-block;
+}
+
+.left-feature{
+	width: 30%;
+	/* vertical-align: middle; */
+	margin: auto 0 auto -100px;
+	padding-bottom: 30px;
+	z-index: 1;
+}
+.right-feature{
+	width: 30%;
+	margin: auto -100px auto 0;
+	/* vertical-align: middle; */
+	padding-bottom: 30px;
+	z-index: 1;
 }
 
 .closing{
@@ -339,8 +392,8 @@ header{
     display: flex;
     width: 15%;
     height: 45px;
-    margin-top: 2%;
-    margin-left: 2%;
+    margin-top: 5%;
+    margin-left: 5%;
     align-items: center;
 }
 
@@ -353,6 +406,22 @@ header{
     color: #74B8E4;
 }
 
+.socials {
+	height: 30px;
+	width: 90px;
+	margin: 5%;
+	margin-left: 30%;
+	align-items: center;
+}
+
+.socials img{
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 70%;
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+}
+
 .cta-2{
     margin-top: 2%;
     margin-right: 2%;
@@ -363,11 +432,15 @@ header{
     border-radius: 15px;
     background: #ED469D;
     color: white;
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 45px;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    box-shadow: 0px 0px 5px #042434;
+    font-size: 16px;
+    box-shadow: 0px 0px 2px #042434;
+	transition: all .3s ease-in-out;
 }
 
+.cta-select-2:hover{
+	box-shadow: 0px 5px 5px #021722;
+}
