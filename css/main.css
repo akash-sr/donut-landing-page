@@ -417,7 +417,8 @@ ul{
 .socials img{
 	margin-left: 5%;
 	margin-right: 5%;
-	height: 70%;
+	/* height: 70%; */
+	width: 25%;
 	cursor: pointer;
 	transition: all .3s ease-in-out;
 }
